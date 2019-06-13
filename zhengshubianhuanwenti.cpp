@@ -3,7 +3,7 @@ using namespace std;
 int k = 1;
 int c = 0;
 char a[100] = {'\0'};
-int SelectFun(const int n, const int m, int s) //Ñ¡Ôñº¯Êı
+int SelectFun(const int n, const int m, int s) //Ã‘Â¡Ã”Ã±ÂºÂ¯ÃŠÃ½
 {
      if(s == 0){
         return 3 * n;
@@ -14,7 +14,7 @@ int SelectFun(const int n, const int m, int s) //Ñ¡Ôñº¯Êı
      }
  
 }
-bool DeptSearch(int Dept, const int n, const int m)//ÉîËÑ
+bool DeptSearch(int Dept, const int n, const int m)//Ã‰Ã®Ã‹Ã‘
 {
      int num;
      if(Dept > k) return false;
